@@ -1,0 +1,30 @@
+name: eli_player
+description: Reproductor y gestor de descargas multiplataforma
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  just_audio: ^0.9.37
+  video_player: ^2.8.5
+  path_provider: ^2.1.4
+  video_thumbnail: ^0.5.3
+  path: ^1.9.0
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/thumbnails/
