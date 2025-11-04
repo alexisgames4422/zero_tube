@@ -71,7 +71,7 @@ class AppTheme {
     );
   }
 
-  static InputDecorationTheme _inputDecorationTheme(ThemeData base) {
+  static InputDecorationThemeData _inputDecorationTheme(ThemeData base) {
     return base.inputDecorationTheme.copyWith(
       hintStyle: const TextStyle(color: AppColors.textSecondary),
       filled: true,
